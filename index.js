@@ -58,7 +58,6 @@ class Client extends EventEmitter {
   post (method, params = {}) {
     const id = this.#id++
     const payload = JSON.stringify({ id, method, params })
-    console.log('payload', payload)
     this.#ws.send(payload)
 
     let _resolve

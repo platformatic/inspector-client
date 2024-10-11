@@ -1,6 +1,6 @@
 {
   "name": "inspector-client",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A WebSocket client for the Chrome DevTools Protocol, to connect to remote Node.js instances",
   "main": "index.js",
   "scripts": {

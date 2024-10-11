@@ -4,7 +4,7 @@
   "description": "A WebSocket client for the Chrome DevTools Protocol, to connect to remote Node.js instances",
   "main": "index.js",
   "scripts": {
-    "test": "node --test"
+    "test": "eslint && node --test"
   },
   "author": "Platformatic Inc. <oss@platformatic.dev> (https://platformatic.dev)",
   "license": "Apache-2.0",

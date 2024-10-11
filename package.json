@@ -1,0 +1,24 @@
+{
+  "name": "inspector-client",
+  "version": "0.0.1",
+  "description": "A WebSocket client for the Chrome DevTools Protocol, to connect to remote Node.js instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Platformatic Inc. <oss@platformatic.dev> (https://platformatic.dev)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/platformatic/inspector-client.git"
+  },
+  "dependencies": {
+    "undici": "^6.20.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "c8": "^10.1.2",
+    "eslint": "^9.12.0",
+    "neostandard": "^0.11.6"
+  }
+}

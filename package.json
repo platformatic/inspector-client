@@ -13,7 +13,7 @@
     "url": "git://github.com/platformatic/inspector-client.git"
   },
   "dependencies": {
-    "undici": "^6.20.0"
+    "undici": "^7.0.0"
   },
   "devDependencies": {
     "c8": "^10.1.2",
